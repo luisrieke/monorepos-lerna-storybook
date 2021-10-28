@@ -1,0 +1,22 @@
+# IntelliJ
+.idea
+*.iml
+
+# dependencies
+**/node_modules
+
+# build
+**/.cache
+**/dist
+**/.dist
+**/cdk.out
+coverage
+
+# config
+.env.local
+
+# misc
+.DS_Store
+!**/.gitkeep
+
+npm-debug.log*
